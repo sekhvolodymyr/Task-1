@@ -23,16 +23,20 @@ body{
   height: 26px;
 }
 .header{
-  
   margin: 0;
   position: 0;
   min-width: 100%;
-  min-height: 600px;
 }
 
 .cover {
-  background-image: url(/img/bg.jpg);
+  background-color: green;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height 600 px;
+  min-height: 50%;
+}
+
+.messi{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
