@@ -89,3 +89,9 @@ article{
   background-color:green;
   opacity:0;
 }
+.last-victory{
+  color: white; 
+ font-family: 'Arimo', sans-serif;
+  text-align: center;
+  font-size: 1.5em;
+}
