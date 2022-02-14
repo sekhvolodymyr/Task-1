@@ -31,12 +31,19 @@ body{
 .cover {
   background-color: green;
   background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .messi{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.title-h1{
+  font-family: 'Arimo', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 4em;
 }
