@@ -95,3 +95,14 @@ article{
   text-align: center;
   font-size: 1.5em;
 }
+
+.my-footer{
+  background-color: #333;
+  color: white; 
+ font-family: 'Arimo', sans-serif;
+  text-align: center;
+  font-size: 1.5em;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  margin:0;
+}
