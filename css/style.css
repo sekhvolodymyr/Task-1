@@ -11,7 +11,7 @@ a ,nav{
 }
 
 nav{
-  overflow: hidden;
+  
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%;
@@ -19,8 +19,7 @@ nav{
 body{
   margin: 0;
   padding: 0;
-  background-image: url(/img/bg.jpg);
-  background-size: cover;
+  background-color: green;
 }
 .logo{
   float: right;
@@ -67,6 +66,10 @@ body{
 }
 
 .content{
+  padding-top:90px;
+  padding-bottom: 70px;
+  background-image: url(/img/bg.jpg);
+  background-size: cover;
  color: white; 
  font-family: 'Arimo', sans-serif;
   text-align: center;
@@ -80,4 +83,9 @@ body{
 article{
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+}
+
+.victory{
+  background-color:green;
+  opacity:0;
 }
