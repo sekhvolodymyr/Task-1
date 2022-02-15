@@ -182,6 +182,14 @@ article{
 
 nav a:hover, .dropdown:hover .dropbtn {
   background-color: green;
+  animation-name: animatemenu;
+  animation-duration: 4s;
+}
+@keyframes animatemenu {
+  0%   {background-color: orange;}
+  25%  {background-color: purple;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
 }
 .dropdown {
   float: left;
