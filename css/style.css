@@ -32,6 +32,18 @@ body{
   height: 26px;
   padding:14px 16px;
   margin-bottom: -15px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 .header{
   margin: 0;
@@ -67,6 +79,13 @@ body{
   color: white;
   font-size: 3em;
 padding-top: 44px;
+color: white;
+  animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example {
+  from {color: purple transparent;}
+  to {color: blue;}
 }
 
 
